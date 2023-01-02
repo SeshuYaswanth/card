@@ -1,0 +1,105 @@
+.cardContainer {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+}
+.frontSide {
+    margin-left: -20%;
+    margin-bottom: -20px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+.logo {
+    position: relative;
+    left: -10%;
+    top: -210px;
+}
+.cardNumber {
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: normal;
+    position: absolute;
+    top: 150px;
+    left: -10%;
+}
+.cardDetails, .cardExpiry {
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 100;
+    position: absolute;
+    top: 200px;
+    left: -10%;
+}
+.cardExpiry {
+    left: 60%;
+}
+.cvv {
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 395px;
+    left: 80%;
+}
+
+
+@media screen and (max-width:768px) {
+    .frontSide {
+        height: 200px;
+        position: absolute;
+        top: 90%;
+        left: -50%;
+        z-index: 1;
+    }
+    .backSide {
+        height: 200px;
+        position: absolute;
+        top: -130%;
+        left: 20%;
+    }
+    .logo {
+        position: relative;
+        left: -30%;
+        top: 80px;
+        z-index: 1;
+    }
+    .cardNumber {
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: normal;
+        font-size: large;
+        width: 350px;
+        position: absolute;
+        top: 180px;
+        left: -20%;
+        z-index: 1;
+    }
+    .cardDetails, .cardExpiry {
+        color: #fff;
+        letter-spacing: 3px;
+        font-size: 12px;
+        font-weight: 100;
+        width: 140px;
+        position: absolute;
+        top: 220px;
+        left: -20%;
+        z-index: 1;
+    }
+    .cardExpiry {
+        left: 250%;
+    }
+    .cvv {
+        color: #fff;
+        font-size: 15px;
+        position: absolute;
+        top: 20px;
+        left: 350%;
+        z-index: 1;
+    }
+}

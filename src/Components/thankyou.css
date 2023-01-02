@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.thanks {
+    font-size: large;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+.continue {
+    height: 40px;
+    width: 350px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+}

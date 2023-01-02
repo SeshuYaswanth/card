@@ -1,0 +1,16 @@
+.main {
+    height: 712px;
+    width: 500px;
+}
+
+
+@media screen and (max-width:768px) {
+    body {
+        background-image: url(../images/bg-main-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .main {
+        opacity: 0;
+    }
+}

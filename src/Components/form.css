@@ -1,0 +1,62 @@
+.formContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.text, .expiryText, .cvvText, .button {
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+.expiryText {
+    width: 50px;
+    margin-right: 10px;
+}
+.cvvText {
+    margin-left: 10px;
+}
+.button {
+    color: #fff;
+    background-color: hsl(278, 68%, 11%);
+    cursor: pointer;
+}
+.labelsCvv {
+    margin-left: 10px;
+}
+@media screen and (max-width:768px) {
+    .formContainer {
+        display: block;
+        position: absolute;
+        top: 400px;
+        left: 120px;
+    }
+    .text, .expiryText, .cvvText, .button {
+        height: 30px;
+        width: 300px;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+        margin: 10px 0 10px 0;
+    }
+    .labels {
+        font-size: medium;
+    }
+    .expiryText {
+        width: 50px;
+        margin-right: 10px;
+    }
+    .cvvText {
+        position: relative;
+        left: 20px;
+        width: 120px;
+    }
+}
